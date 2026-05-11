@@ -30,7 +30,7 @@ Esse mesmo conjunto de NS aparece em **dois contextos** diferentes (ver secção
 
 ## Tudo começa na raiz
 
-- A árvore começa na **[zona raiz](https://www.nslookup.io/learning/what-is-the-dns-root-zone/)**, notada muitas vezes como **`.`**.
+- A árvore começa na **zona raiz** (nota [06 — Zona raiz do DNS](06-zona-raiz-dns.md); artigo NsLookup: [What is the DNS root zone?](https://www.nslookup.io/learning/what-is-the-dns-root-zone/)), notada muitas vezes como **`.`**.
 - Resolvedores **recursivos** vêm com a lista de IPs dos **servidores raiz** (hoje **13** “letras”, tipicamente **1× IPv4 + 1× IPv6** cada um → **26 endereços** lógicos).
 - Na prática esses IPs são servidos por **muitas** máquinas ( **anycast** ), não um único servidor por IP.
 - Operadores incluem ICANN, Verisign, ISC (BIND), NASA, exército dos EUA, universidades, etc. Sem a raiz, a resolução global quebra.
@@ -118,7 +118,7 @@ Historicamente o nome **completo** da consulta era enviado a cada salto, **revel
 
 ## Ferramentas
 
-- **`dig +trace`**: segue da raiz pelas delegações (BIND / pacote `dnsutils` em muitas distros).
+- **`dig +trace`**: segue da raiz pelas delegações (BIND / pacote `dnsutils` em muitas distros). Resumo do comando e da opção **`+nodnssec`**: [nota 05 — dig +trace](05-dig-trace-nodnssec.md).
 - **[dnsviz.net](https://dnsviz.net)**: útil, com foco forte em **DNSSEC** (curva de aprendizado maior).
 
 ## Referências

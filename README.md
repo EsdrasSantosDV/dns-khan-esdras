@@ -8,3 +8,5 @@ Notas e resumos do curso **DNS para desenvolvedores**.
 - [02 — O que é DNS? Visão geral (artigo / fundamentos)](notas/02-o-que-e-dns-visao-geral.md)
 - [03 — Banco federado, árvore, zonas e rótulos](notas/03-dns-banco-federado-arvore-zonas-rotulos.md)
 - [04 — Delegação de zona DNS (NS, glue, cache, falhas)](notas/04-delegacao-zona-dns.md)
+- [05 — `dig +trace` e `+nodnssec`](notas/05-dig-trace-nodnssec.md)
+- [06 — Zona raiz do DNS (ICANN, 13 raízes, anycast)](notas/06-zona-raiz-dns.md)
